@@ -33,7 +33,7 @@ market_cost = float(cart_total - (cart_total * discount / 100))
 delivery_city = input("მიუთითეთ მიტანის ადგილი: 'თბილისი', 'ქუთაისი', 'ბათუმი', 'რეგიონები' ")
 delivery_cost = 15
 # აქედან ვიწყებ მიტანის პირობების დაკმაყოფილებას
-if delivery_city in ['თბილისი', 'ქუთაის', 'ბათუმი' ]:
+if delivery_city in ['თბილისი', 'ქუთაისი', 'ბათუმი' ]:
   if market_cost >= 100:
     delivery_cost = 0
   else:
