@@ -39,7 +39,7 @@ if delivery_city in ['თბილისი', 'ქუთაისი', 'ბა�
   else:
     delivery_cost =5
 else:
-  delivery_cost = 15 
+  delivery_cost 
   # აქ გამომყავს საბოლოო ღირებულება, რომელსაც მომხმარებელი გადაიხდის პროდუქციაში და მიტანის სერვისში.
 total_cost = market_cost + delivery_cost
 #აქ ხდება საბოლოო ინვოისის განსაზღვრა და ვასრულებ ოპერაციას.
